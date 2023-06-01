@@ -86,6 +86,14 @@ On the other hand, the default export can be imported using **any name of your c
 // At the end, both are javascript functions.
 // In jsx syntax, <HeaderCompo /> is used
 ```
+```jsx
+Passing Props
+
+// Passing props using React conventions
+<FunctionalComponent props={data} />
+// It is same as passing an parameter to a function in JS
+{FunctionalComponent(data)}
+```
 
 # Everything is a Function
 Any piece of javascript code can be written inside a {} in jsx.
@@ -104,4 +112,32 @@ return (
 )};
 
 // output : 1,1,4
+```
+# Object destructuring 
+### Normal Method
+```jsx
+// using normal props
+const RestaurantCard = (props) => {
+  return (
+      <h1> {props.name} </h1>
+  )};
+```
+### Object Destructured Method
+```jsx
+// Destructuring the object first.
+const RestaurantCard = ({restaurantName}) => {
+  const {name, avgRatings, cuisines} = restaurantName;
+  return (
+      <h1> {name} </h1>
+  )};
+```
+### Spread Operator Method
+```jsx
+// Using spread operator for object destructuring
+const RestaurantCard = (props) => {
+  const { ...rest } = props;
+  return (
+    <h1>{rest.name}</h1>
+  );
+};
 ```

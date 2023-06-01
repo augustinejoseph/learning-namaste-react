@@ -1,0 +1,18 @@
+.restaurantcard{
+    width: 200px;
+    padding:10px;
+
+}
+.restaurantcardimage{
+    width: 200px;
+}
+.restaurantcard > h2 {
+    padding: 0;
+    margin: 3;
+}
+.restaurantcard > h4 {
+    margin: 3px;
+}
+.restaurantcard > img {
+    width: 100%;
+}

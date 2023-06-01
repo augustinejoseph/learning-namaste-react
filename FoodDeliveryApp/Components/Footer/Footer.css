@@ -1,0 +1,16 @@
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.footercontainer > h4 {
+
+}
+.footercontainer > ul {
+    list-style: none;
+    display: flex;
+    
+}
+.footercontainer >ul > li {
+    padding-left: 10px;
+}

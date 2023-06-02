@@ -73,3 +73,7 @@ console.log(wordResult)
 ```
 Here the filter method is used to create a new array named wordResult that contains the words from the 'words' array with a length greater than 5.
 Here the callback function is **'word => word.length > 5'** which is represented using arrow function format.
+
+# Spread Operators
+https://www.samanthaming.com/tidbits/92-6-use-cases-of-spread-with-array/
+

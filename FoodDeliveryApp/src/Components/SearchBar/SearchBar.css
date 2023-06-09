@@ -1,0 +1,14 @@
+.searchInputField{
+    border-radius: 10;
+    background-color: rgb(218, 194, 194); 
+    padding: 3px;
+}
+.searchButton{
+    color: rgb(254, 0, 0);
+    border-radius: 10;
+
+}
+.searchButton{
+    padding: 3px;
+
+}

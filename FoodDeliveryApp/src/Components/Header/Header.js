@@ -1,4 +1,5 @@
 import "./Header.css"
+import {Link} from 'react-router-dom'
 
 const Title = () => {
     return(
@@ -12,13 +13,15 @@ const Logo = () => (
 const Header = () => {
     return(
         <div className ="header">
-            <Logo className="logo" />
-            <Title />
+            <Link to = "/"><Logo className="logo" /> </Link>
+            <Link to="/"><Title /></Link>
             <div className = "header-links">
                 <ul>
-                    <li> Home</li>
-                    <li> About</li>
-                    <li> Contact</li>
+                    <Link to= "/">  {<li> Home</li>} </Link>
+                    <Link to ="/about" ><li> About</li></Link>
+                    <Link to="/contact"><li> Contact</li></Link>
+                    <Link to="/blog"><li>Blog</li> </Link>
+                    <Link to = "/store"><li>Store</li></Link>
                 </ul>
             </div>
         </div>

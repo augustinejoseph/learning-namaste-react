@@ -1,6 +1,11 @@
 .restaurantcard{
     width: 200px;
-    padding:10px;
+    padding:5px;
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    
 
 }
 .restaurantcardimage{
@@ -15,4 +20,10 @@
 }
 .restaurantcard > img {
     width: 100%;
+}
+.restaurantcard-name{
+    text-align: center;
+}
+.restaurantcard-rating{
+    text-align: center;
 }

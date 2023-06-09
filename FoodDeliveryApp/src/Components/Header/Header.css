@@ -1,0 +1,23 @@
+.header{
+    display:  flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.logo{
+    width: 20px;
+}
+.header-links > ul{
+    list-style-type: none;   
+    display: flex; 
+    padding: 10px;
+}
+.header-links > ul > Link {
+    padding: 10px;
+
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px;
+}
